@@ -1,0 +1,5 @@
+(library
+ (name aoc)
+ (libraries core base angstrom stdio fmt)
+ (inline_tests)
+ (preprocess (pps ppx_sexp_conv ppx_sexp_value ppx_expect ppx_inline_test)))
