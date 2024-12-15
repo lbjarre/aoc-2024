@@ -24,6 +24,7 @@ let solution_of_day = function
   | "12" -> (module Aoc.Day12 : SOLUTION)
   | "13" -> (module Aoc.Day13 : SOLUTION)
   | "14" -> (module Aoc.Day14 : SOLUTION)
+  | "15" -> (module Aoc.Day15 : SOLUTION)
   | _ -> failwith "day not implemented yet"
 ;;
 
