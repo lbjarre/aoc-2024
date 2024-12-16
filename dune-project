@@ -19,7 +19,7 @@
  (name aoc2024)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune stdio core core_unix angstrom fmt)
+ (depends ocaml dune stdio core core_unix core_kernel angstrom fmt)
  (tags
   ("add topics" "to describe" your project)))
 

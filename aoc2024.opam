@@ -15,6 +15,7 @@ depends: [
   "stdio"
   "core"
   "core_unix"
+  "core_kernel"
   "angstrom"
   "fmt"
   "odoc" {with-doc}
